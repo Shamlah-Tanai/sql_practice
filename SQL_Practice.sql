@@ -12,7 +12,7 @@ WHERE id = 2;
 
 UPDATE students
 SET email = 'shamlah.tanai@example.com' where id = 2;
-
+SELECT * FROM students;
 
 DELETE FROM students WHERE id = 2;
 DELETE FROM students;
@@ -167,4 +167,7 @@ WHERE (SELECT tabella2.colonna FROM tabella2);
 SELECT orders.date_order
 FROM orders
 WHERE orders.students_id IN (SELECT id FROM students);
+SELECT * FROM ANIMALS
+SELECT * FROM students;
+select * from orders;
 
